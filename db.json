@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageProduct": "https://img.cuisineaz.com/660x660/2018/06/28/i140702-burger-raclette.webp",
+      "title": "Burger Raclette",
+      "price": 15000,
+      "likes": 45,
+      "descProduct": "Avec son fromage à raclette fondant",
+      "isFavorite": 1,
+      "ingredients": [
+        "Pain à burger",
+        "Salade",
+        "Fromage à raclette",
+        "moutarde",
+        "steack",
+        "Oigons rouges",
+        "Tomates"
+      ],
+      "categoryProduct": "Burger"
+    },
+    {
+      "id": 2,
+      "categoryProduct": "Burger",
+      "imageProduct": "https://img.cuisineaz.com/660x660/2016/07/15/i77647-fish-burger.webp",
+      "title": "Fish Burger au citron",
+      "likes": 1045,
+      "descProduct": "Avec son fromage à raclette fondant",
+      "isFavorite": 3,
+      "ingredients": [
+        "Pain à burger",
+        "Salade",
+        "Citron",
+        "mayonnaise",
+        "Poisson Blanc",
+        "Oigons rouges",
+        "Sauce Tomate",
+        "Carottes"
+      ],
+      "price": 16000
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "productId": [
+        1,
+        2
+      ],
+      "quantity": [
+        4,
+        3
+      ],
+      "date": "2023-08-24 20:29:11.017",
+      "userId": 2
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        1
+      ],
+      "date": "2023-08-24 21:08:36.632",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        1
+      ],
+      "date": "2023-08-24 21:10:54.345",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        1
+      ],
+      "date": "2023-08-24 21:13:28.177",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        1
+      ],
+      "date": "2023-08-24 21:16:52.458",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        1
+      ],
+      "date": "2023-08-24 21:17:13.689",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "productId": [
+        0
+      ],
+      "quantity": [
+        2
+      ],
+      "date": "2023-08-24 21:28:32.004",
+      "userId": 5,
+      "id": 7
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "username": "Nicolas",
+      "email": "nicolas@gmail.com",
+      "password": "Nicolas"
+    },
+    {
+      "id": 2,
+      "username": "Louise",
+      "email": "louise@gmail.com",
+      "password": "Louise"
+    },
+    {
+      "id": 3,
+      "username": "Michel",
+      "email": "michel@gmail.com",
+      "password": "Michel"
+    },
+    {
+      "id": 4,
+      "username": "Sebastien",
+      "email": "sebastien@gmail.com",
+      "password": "Sebastien"
+    },
+    {
+      "username": "jessica",
+      "email": "jessica@gmail.com",
+      "password": "123456789",
+      "id": 5
+    }
+  ]
+}
